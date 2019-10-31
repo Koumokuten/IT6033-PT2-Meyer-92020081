@@ -8,6 +8,8 @@ package bubblesortcustomerdata;
 /**
  *  Author Meyer Evenblij
  *  24/10/19
+ * A data collection displayed in various sorting orders 
+ * (Unsorted/Ascending/Descending)
  */
 
 public class BubbleSortCustomerData {
@@ -84,6 +86,10 @@ public class BubbleSortCustomerData {
             new CustomerInformation("Bob", 4, "Papakura"),
             new CustomerInformation("Wiremu", 5, "Auckland")
         };
+        
+        //Prints a Welcome Message
+        System.out.println("Welcome to Arrays in Various Ways...");
+        
         //Prints the Unsorted Array
         System.out.println("The Unsorted array is");
         ob.printArray(arr);
